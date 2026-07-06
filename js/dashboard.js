@@ -43,3 +43,10 @@ document.getElementById("documentList").innerHTML=html;
 });
 document.getElementById("welcomeUser").innerHTML =
 "Welcome, " + currentUser.name;
+function logout(){
+
+sessionStorage.removeItem("spieUser");
+
+window.location.href="index.html";
+
+}
