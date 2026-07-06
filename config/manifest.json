@@ -1,22 +1,30 @@
-
 {
-"application":"SPIE",
+  "application": {
+    "name": "SPIE",
+    "version": "0.1.0-alpha",
+    "build": "2026.07.07.001",
+    "environment": "development"
+  },
 
-"version":"1.0",
+  "repository": {
+    "provider": "GitHub",
+    "branch": "develop"
+  },
 
-"plugins":[
+  "storage": {
+    "type": "github"
+  },
 
-"upload",
+  "plugins": [
+    "dashboard",
+    "viewer",
+    "search",
+    "upload",
+    "statistics"
+  ],
 
-"viewer",
-
-"search",
-
-"statistics",
-
-"github",
-
-"cloudflare"
-
-]
+  "security": {
+    "session": true,
+    "loginRequired": true
+  }
 }
