@@ -1,1 +1,27 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<title>SPIE Dashboard</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
 
+<body>
+
+<h1>SPIE Dashboard</h1>
+
+<input type="text" id="searchBox"
+placeholder="Cari Dokumen">
+
+<button>Cari</button>
+
+<hr>
+
+<div id="documentList">
+
+</div>
+
+<script src="js/dashboard.js"></script>
+
+</body>
+</html>
