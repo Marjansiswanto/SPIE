@@ -1,3 +1,17 @@
+// ===========================
+// SPIE Session Protection
+// ===========================
+
+const currentUser =
+    JSON.parse(
+        sessionStorage.getItem("spieUser")
+    );
+
+if (!currentUser) {
+
+    window.location.href = "index.html";
+
+}
 fetch("config/config.json")
 .then(response => response.json())
 .then(data => {
