@@ -26,3 +26,8 @@ placeholder="Cari Dokumen">
 
 </body>
 </html>
+<button onclick="logout()">
+
+Logout
+
+</button>
