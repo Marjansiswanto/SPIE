@@ -1,52 +1,33 @@
-// ===========================
-// SPIE Session Protection
-// ===========================
+<body>
 
-const currentUser =
-    JSON.parse(
-        sessionStorage.getItem("spieUser")
-    );
+<div id="header">
 
-if (!currentUser) {
+SPIE
 
-    window.location.href = "index.html";
-
-}
-fetch("config/config.json")
-.then(response => response.json())
-.then(data => {
-
-let html="";
-
-data.documents.forEach(doc=>{
-
-html += `
-<div>
-
-<h3>${doc.title}</h3>
-
-<p>${doc.category}</p>
-
-<a href="${doc.file}" target="_blank">
-Buka PDF
-</a>
-
-<hr>
+Smart Presentation Interactive Engine
 
 </div>
-`;
 
-});
+<div class="layout">
 
-document.getElementById("documentList").innerHTML=html;
+<div id="sidebar">
 
-});
-document.getElementById("welcomeUser").innerHTML =
-"Welcome, " + currentUser.name;
-function logout(){
+</div>
 
-sessionStorage.removeItem("spieUser");
+<div id="workspace">
 
-window.location.href="index.html";
+</div>
 
-}
+</div>
+
+<div id="footer">
+
+SPIE Version 0.1.0 Alpha
+
+</div>
+
+<script src="js/sidebar.js"></script>
+
+<script src="js/dashboard.js"></script>
+
+</body>
