@@ -1,1 +1,15 @@
-
+{
+  "appName": "SPIE Portal",
+  "version": "1.0 Alpha",
+  "repository": "GitHub",
+  "documents": [
+    {
+      "id": "DOC-0001",
+      "title": "SIPATRA-SMART FINAL",
+      "file": "pdf/SIPATRA-SMART_final.pdf",
+      "category": "SIPATRA",
+      "author": "Marjan Siswanto",
+      "version": "1.0"
+    }
+  ]
+}
