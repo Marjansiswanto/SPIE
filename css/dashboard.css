@@ -1,1 +1,67 @@
+/* ===== SPIE Dashboard Layout ===== */
 
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+
+    font-family:Segoe UI,Arial,sans-serif;
+
+    background:#f4f7fa;
+
+}
+
+.layout{
+
+    display:flex;
+
+    min-height:100vh;
+
+}
+
+#sidebar{
+
+    width:240px;
+
+    background:#1f2937;
+
+    color:white;
+
+    padding:20px;
+
+}
+
+#workspace{
+
+    flex:1;
+
+    padding:25px;
+
+}
+
+#header{
+
+    background:#005BAC;
+
+    color:white;
+
+    padding:15px;
+
+    font-size:22px;
+
+    font-weight:bold;
+
+}
+
+#footer{
+
+    background:#ECECEC;
+
+    padding:10px;
+
+    text-align:center;
+
+}
