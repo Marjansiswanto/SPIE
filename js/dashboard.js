@@ -41,3 +41,5 @@ Buka PDF
 document.getElementById("documentList").innerHTML=html;
 
 });
+document.getElementById("welcomeUser").innerHTML =
+"Welcome, " + currentUser.name;
