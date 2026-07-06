@@ -3,7 +3,6 @@
 <head>
 <meta charset="UTF-8">
 <title>SPIE Dashboard</title>
-<h2 id="welcomeUser"></h2>
 <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -11,23 +10,19 @@
 
 <h1>SPIE Dashboard</h1>
 
-<input type="text" id="searchBox"
-placeholder="Cari Dokumen">
+<h2 id="welcomeUser"></h2>
+
+<input type="text" id="searchBox" placeholder="Cari Dokumen">
 
 <button>Cari</button>
 
 <hr>
 
-<div id="documentList">
+<div id="documentList"></div>
 
-</div>
+<button onclick="logout()">Logout</button>
 
 <script src="js/dashboard.js"></script>
 
 </body>
 </html>
-<button onclick="logout()">
-
-Logout
-
-</button>
