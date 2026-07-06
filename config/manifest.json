@@ -1,1 +1,22 @@
 
+{
+"application":"SPIE",
+
+"version":"1.0",
+
+"plugins":[
+
+"upload",
+
+"viewer",
+
+"search",
+
+"statistics",
+
+"github",
+
+"cloudflare"
+
+]
+}
